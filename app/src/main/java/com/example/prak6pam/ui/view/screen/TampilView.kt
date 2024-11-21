@@ -65,7 +65,10 @@ fun TampilView(
                     Text("Matakuliah yang diambil:")
                     Text(uiState.namaMatakuliah)
                 }
-
+                Row(){
+                    Text(text = "Kelas:")
+                    Text(uiState.kelas)
+                }
             }
         }
     }
