@@ -57,6 +57,7 @@ fun TampilView(
                     Text(uiState.email)
                 }
             }
+            Spacer(modifier = Modifier.padding(16.dp))
         }
     }
 }
