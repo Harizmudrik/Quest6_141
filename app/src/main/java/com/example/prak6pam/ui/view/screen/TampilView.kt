@@ -33,6 +33,7 @@ fun TampilView(
             .fillMaxSize().background(colorResource(id = R.color.primary)),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        NavUniv()
 
     }
 }
