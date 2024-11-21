@@ -85,6 +85,12 @@ fun MatakuliahView(
                     }
                 }
             }
+            Button(
+                onClick = {onSimpanButtonClicked(listData)},
+                modifier = Modifier.fillMaxWidth()
+            ){
+                Text(text = "Simpan")
+            }
         }
     }
 }
