@@ -48,7 +48,23 @@ fun MatakuliahView(
                 .background(Color.White, shape = RoundedCornerShape(topStart = 15.dp, topEnd = 15.dp))
                 .padding(16.dp)
         ){
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Column (
 
+                ){
+                    Text("Nim:")
+                    Text(uiState.nim)
+                    Text("Nama:")
+                    Text(uiState.nama)
+                }
+                Column (
+                ){
+                    Text(uiState.email)
+                }
+            }
         }
     }
 }
