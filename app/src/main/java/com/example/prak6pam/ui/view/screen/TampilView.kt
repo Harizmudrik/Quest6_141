@@ -70,6 +70,7 @@ fun TampilView(
                     Text(uiState.kelas)
                 }
             }
+            Spacer(modifier = Modifier.padding(32.dp))
         }
     }
 }
