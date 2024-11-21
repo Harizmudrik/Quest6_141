@@ -42,6 +42,13 @@ fun MatakuliahView(
             .fillMaxSize().background(colorResource(id = R.color.primary)),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        NavUniv()
+        Column(
+            modifier = Modifier.fillMaxSize()
+                .background(Color.White, shape = RoundedCornerShape(topStart = 15.dp, topEnd = 15.dp))
+                .padding(16.dp)
+        ){
 
+        }
     }
 }
