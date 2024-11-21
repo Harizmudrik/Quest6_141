@@ -33,5 +33,7 @@ fun MatakuliahView(
     uiState: Mahasiswa,
     onSimpanButtonClicked: (MutableList<String>) -> Unit
 ){
+    var namamatakuliah by remember { mutableStateOf("")}
+    var kelas by remember { mutableStateOf("")}
 
 }
