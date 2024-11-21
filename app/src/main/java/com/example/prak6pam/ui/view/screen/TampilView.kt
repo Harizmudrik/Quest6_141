@@ -71,6 +71,15 @@ fun TampilView(
                 }
             }
             Spacer(modifier = Modifier.padding(32.dp))
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ){
+                Button(onClick = {onBackButtonClicked()}) {
+                    Text(text = "Kembali")
+                }
+
+            }
         }
     }
 }
