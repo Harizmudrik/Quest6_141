@@ -65,6 +65,13 @@ fun MatakuliahView(
                     Text(uiState.email)
                 }
             }
+            OutlinedTextField(
+                modifier = Modifier.fillMaxWidth(),
+                value = namamatakuliah,
+                onValueChange = {namamatakuliah = it},
+                label = { Text(text = "Mata Kuliah") },
+                singleLine = true,
+            )
         }
     }
 }
