@@ -31,3 +31,7 @@ import com.example.prak6pam.ui.view.screen.part.NavUniv
 @Composable
 fun MatakuliahView(
     uiState: Mahasiswa,
+    onSimpanButtonClicked: (MutableList<String>) -> Unit
+){
+
+}
