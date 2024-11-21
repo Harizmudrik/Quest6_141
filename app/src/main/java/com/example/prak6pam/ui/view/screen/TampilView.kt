@@ -41,7 +41,18 @@ fun TampilView(
             horizontalAlignment = Alignment.CenterHorizontally,
 
             ){
-
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Column(
+                ) {
+                    Text("Nim:")
+                    Text(uiState.nim)
+                    Text("Nama:")
+                    Text(uiState.nama)
+                }
+            }
         }
     }
 }
