@@ -26,7 +26,7 @@ Composable
 fun TampilView(
     uiState: Mahasiswa,
     onBackButtonClicked: () -> Unit = {},
-
+    onResetButtonClicked: () -> Unit = {}
 ) {
 
 }
