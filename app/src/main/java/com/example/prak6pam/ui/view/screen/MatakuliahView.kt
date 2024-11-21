@@ -72,6 +72,19 @@ fun MatakuliahView(
                 label = { Text(text = "Mata Kuliah") },
                 singleLine = true,
             )
+            Column(){
+                list.forEach { Selected ->
+                    Row (
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        RadioButton(
+                            selected = kelas == Selected,
+                            onClick = {kelas = Selected}
+                        )
+                        Text(text = Selected)
+                    }
+                }
+            }
         }
     }
 }
