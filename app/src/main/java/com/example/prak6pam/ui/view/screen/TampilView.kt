@@ -78,7 +78,9 @@ fun TampilView(
                 Button(onClick = {onBackButtonClicked()}) {
                     Text(text = "Kembali")
                 }
-
+                Button(onClick = {onResetButtonClicked()}) {
+                    Text(text = "Reset")
+                }
             }
         }
     }
