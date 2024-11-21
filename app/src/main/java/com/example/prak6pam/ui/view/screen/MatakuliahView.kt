@@ -35,5 +35,13 @@ fun MatakuliahView(
 ){
     var namamatakuliah by remember { mutableStateOf("")}
     var kelas by remember { mutableStateOf("")}
+    val list = listOf("A", "B", "C")
+    val listData : MutableList<String> = mutableListOf(namamatakuliah, kelas)
+    Column(
+        modifier = Modifier
+            .fillMaxSize().background(colorResource(id = R.color.primary)),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ){
 
+    }
 }
