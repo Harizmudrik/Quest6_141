@@ -31,6 +31,7 @@ fun TampilView(
     Column(
         modifier = Modifier
             .fillMaxSize().background(colorResource(id = R.color.primary)),
+        horizontalAlignment = Alignment.CenterHorizontally
     ){
 
     }
