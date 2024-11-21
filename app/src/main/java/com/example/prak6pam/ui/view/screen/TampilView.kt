@@ -22,7 +22,8 @@ import com.example.prak6pam.R
 import com.example.prak6pam.ui.model.Mahasiswa
 import com.example.prak6pam.ui.view.screen.part.NavUniv
 
-Composable
+
+@Composable
 fun TampilView(
     uiState: Mahasiswa,
     onBackButtonClicked: () -> Unit = {},
@@ -32,7 +33,7 @@ fun TampilView(
         modifier = Modifier
             .fillMaxSize().background(colorResource(id = R.color.primary)),
         horizontalAlignment = Alignment.CenterHorizontally
-    ){
+    ) {
         NavUniv()
         Column (
             modifier = Modifier.fillMaxSize()
@@ -45,8 +46,8 @@ fun TampilView(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
-                Column(
-                ) {
+                Column (
+                ){
                     Text("Nim:")
                     Text(uiState.nim)
                     Text("Nama:")
