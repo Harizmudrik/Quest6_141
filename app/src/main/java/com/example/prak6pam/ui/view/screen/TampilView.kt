@@ -52,6 +52,10 @@ fun TampilView(
                     Text("Nama:")
                     Text(uiState.nama)
                 }
+                Column (
+                ){
+                    Text(uiState.email)
+                }
             }
         }
     }
