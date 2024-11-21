@@ -16,3 +16,30 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.prak6pam.R
+
+@Composable
+fun NavUniv(){
+    Spacer(modifier = Modifier.padding(top = 16.dp))
+    Row (
+        modifier = Modifier.padding(16.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Image(
+            painter = painterResource(id = R.drawable.logouemye),
+            contentDescription = "umy",
+            modifier = Modifier.size(45.dp)
+        )
+        Spacer(modifier = Modifier.padding(start = 16.dp))
+        Column {
+            Text(text = "Universitas Muhammadiyah Yogyakarta",
+                color = Color.Red,
+                fontSize = 15.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(text = "Unggul dan Islami",
+                color = Color.Red,
+                fontWeight = FontWeight.Light
+            )
+        }
+    }
+}
