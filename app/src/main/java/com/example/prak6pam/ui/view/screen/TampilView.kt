@@ -58,6 +58,15 @@ fun TampilView(
                 }
             }
             Spacer(modifier = Modifier.padding(16.dp))
+            Column (
+                modifier = Modifier.fillMaxWidth()
+            ){
+                Row() {
+                    Text("Matakuliah yang diambil:")
+                    Text(uiState.namaMatakuliah)
+                }
+
+            }
         }
     }
 }
