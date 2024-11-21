@@ -25,6 +25,7 @@ import com.example.prak6pam.ui.view.screen.part.NavUniv
 Composable
 fun TampilView(
     uiState: Mahasiswa,
+    onBackButtonClicked: () -> Unit = {},
 
 ) {
 
